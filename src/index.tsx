@@ -8,7 +8,7 @@ import {
   Route,
 } from "react-router-dom";
 import './index.module.scss';
-import SomeExampleComponent from './components/example/someExampleComponent';
+import AboutMeComponent from './components/aboutMe/aboutMeComponent';
 import MyFirstComponent from './components/myFirstComponent';
 import Navbar from './components/navbar/navbar';
 
@@ -22,7 +22,7 @@ root.render(
     <Navbar />
       <Routes>
         <Route path='/' element={<App />}></Route>
-        <Route path='example' element={<SomeExampleComponent />} />
+        <Route path='example' element={<AboutMeComponent />} />
         <Route path='/first' element={<MyFirstComponent />} />
       </Routes>
     </BrowserRouter>

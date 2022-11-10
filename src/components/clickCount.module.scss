@@ -1,3 +1,21 @@
 .container {
     background-color: yellow;
 }
+
+.btn {
+    border: none;
+    width: 70px;
+    height: 50px;
+background-color: black;
+color: whitesmoke;
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+font-weight: bold;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: green;
+    width: 90px;
+    height: 70px;
+}

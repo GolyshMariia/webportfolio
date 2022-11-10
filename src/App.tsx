@@ -1,13 +1,13 @@
 import React from 'react'
 import MyFirstComponent from './components/myFirstComponent';
-import SomeExampleComponent from './components/example/someExampleComponent';
+import AboutMeComponent from './components/aboutMe/aboutMeComponent';
 import ClickCount from './components/clickCount';
 
 
 const App: React.FC = () => {
   return (
     <div>
-      <SomeExampleComponent />
+      <AboutMeComponent />
       <ClickCount />
     </div>
   )
