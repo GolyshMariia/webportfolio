@@ -9,8 +9,8 @@ type AboutMeComponentProps = {
 const AboutMeComponent: React.FC<AboutMeComponentProps> = () => {
   return (
     <div className={styles.container}>
-  <h1>Header</h1>
-  <p>My supercool component</p>
+  <h1>Welcome to my page</h1>
+  <p>Mariia Golysh</p>
 </div>
   )
 }

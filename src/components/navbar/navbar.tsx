@@ -9,10 +9,16 @@ type NavbarProps = {
 const Navbar: React.FC<NavbarProps> = () => {
   return (
     <div className={styles.container}>
-      <Link to="/">Home</Link>
-      <Link to="first">My First Component</Link>
-      <Link to="example">About Me</Link>
+        <div>
+            <ul className={styles.links}>
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="first">CV</Link></li>
+      <li><Link to="example">About Me</Link></li>
+      <li><Link to="example">Work</Link></li>
+      </ul>
     </div>
+    </div>
+    
   )
 }
 

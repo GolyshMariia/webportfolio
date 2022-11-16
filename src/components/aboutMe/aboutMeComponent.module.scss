@@ -1,7 +1,7 @@
 .container {
     width: 100%;
   height: 450px;
-  background: #1abc9c;
+  background: #010420;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,8 +16,8 @@
   p {
     font-weight: 700;
     font-size: 25px;
-    color: rgb(206, 255, 255);
-    background: rgb(255, 0, 200);
+    color: rgba(8, 17, 17, 0.78);
+    background: rgb(233, 206, 31);
     padding: 10px;
   }
 }
