@@ -1,7 +1,7 @@
 .container {
     width: 100%;
-  height: 450px;
-  background: #010420;
+  height: 500px;
+  background: #022836;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,7 +9,7 @@
 
   h1 {
     font-size: 52px;
-    color: azure;
+    color: rgb(216, 246, 246);
     text-shadow: 2px 2px #7860ff;
   }
 
@@ -20,4 +20,5 @@
     background: rgb(233, 206, 31);
     padding: 10px;
   }
+  
 }
