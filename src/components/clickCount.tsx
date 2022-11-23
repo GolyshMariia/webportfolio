@@ -21,4 +21,4 @@ const ClickCount: React.FC<ClickCountProps> = () => {
   );
 }
 
-export default ClickCount
+export default ClickCount 

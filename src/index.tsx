@@ -12,7 +12,7 @@ import HomeMyComponent from './components/home/homeMyComponent';
 import MyFirstComponent from './components/cv/myFirstComponent';
 import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
-
+import Projects from './components/projects/projects';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -29,6 +29,7 @@ const Index: React.FC  = () => {
             <Route path='/' element={<App />}></Route>
             <Route path='example' element={<HomeMyComponent />} />
             <Route path='/first' element={<MyFirstComponent />} />
+            <Route path='/projects' element={<Projects />} />
         </Routes>
         <Footer />
       </BrowserRouter>

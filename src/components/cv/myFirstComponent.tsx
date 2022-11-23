@@ -1,12 +1,12 @@
 import React from 'react'
-
+import styles from './myFirstComponent.module.scss'
 type MyFirstComponentProps = {
 
 }
 
 const MyFirstComponent: React.FC<MyFirstComponentProps> = () => {
   return (
-    <div>
+    <div className={styles.text}>
       <h1>CURRICULUM VITAE</h1>
       <h1>EDUCATION</h1>
       <p>Russian Theater Institute         2008 - 2012</p>
