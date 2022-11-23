@@ -8,8 +8,8 @@ import {
   Route,
 } from "react-router-dom";
 import './index.module.scss';
-import AboutMeComponent from './components/aboutMe/aboutMeComponent';
-import MyFirstComponent from './components/myFirstComponent';
+import HomeMyComponent from './components/home/homeMyComponent';
+import MyFirstComponent from './components/cv/myFirstComponent';
 import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
 
@@ -17,19 +17,26 @@ import Footer from './components/footer/footer';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
-root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-    <Navbar />
-      <Routes>
-        <Route path='/' element={<App />}></Route>
-        <Route path='example' element={<AboutMeComponent />} />
-        <Route path='/first' element={<MyFirstComponent />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
-  </React.StrictMode>
-);
+const Index: React.FC  = () => {
+
+  const isProduction = window.location.href.includes('golyshmariia.github.io');
+
+  return (
+    <React.StrictMode>
+      <BrowserRouter basename={isProduction ? 'webportfolio' : ''}>
+        <Navbar />
+          <Routes>
+            <Route path='/' element={<App />}></Route>
+            <Route path='example' element={<HomeMyComponent />} />
+            <Route path='/first' element={<MyFirstComponent />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </React.StrictMode>
+  )
+}
+
+root.render(<Index />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
