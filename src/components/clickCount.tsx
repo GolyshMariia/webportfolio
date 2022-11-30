@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from "./clickCount.module.scss";
 
-type ClickCountProps = {
+ type ClickCountProps = {
 
 }
 
