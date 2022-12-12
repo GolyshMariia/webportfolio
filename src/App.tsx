@@ -8,7 +8,7 @@ const App: React.FC = () => {
   return (
     <div>
       <HomeMyComponent />
-      <img src={pic} alt='my image' />
+      <img src={pic} />
     </div>
   )
 }
