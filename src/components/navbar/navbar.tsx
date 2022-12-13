@@ -14,7 +14,6 @@ const Navbar: React.FC<NavbarProps> = () => {
       <li><Link to="/">Home</Link></li>
       <li><Link to="first">CV</Link></li>
       <li><Link to="projects">Projects</Link></li>
-      <li><Link to="example">Work</Link></li>
       </ul>
     </div>
     </div>
