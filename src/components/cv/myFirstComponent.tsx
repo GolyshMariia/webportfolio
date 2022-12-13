@@ -4,6 +4,7 @@ type MyFirstComponentProps = {
 
 }
 
+
 const MyFirstComponent: React.FC<MyFirstComponentProps> = () => {
   return (
     <div className={styles.text}>
@@ -19,7 +20,12 @@ const MyFirstComponent: React.FC<MyFirstComponentProps> = () => {
       <h2>Photographer        2014 - 2015</h2>
       <p>Chamber college (Malta)</p>
       <h2>Beauty salon manager     2016 - 2019</h2>
+      <img src="../Assets/1.png" alt="Foto" width="460" height="345"></img>
     </div>
+     
+    
+    
+    
   )
 }
 

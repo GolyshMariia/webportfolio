@@ -28,7 +28,9 @@ const Projects: React.FC<ProjectsProps> = () => {
               <a href={x.html_url} target="_blanc" rel='noreferrer'><h4 className={styles.a}>Open in GitHub</h4></a>
             </div>
           ))
+          
         }
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Is59Cch1g0w" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
       </div>
     </div>
   )
