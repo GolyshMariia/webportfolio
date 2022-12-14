@@ -23,7 +23,7 @@ const CV: React.FC<CVProps> = () => {
       <p>Chamber college (Malta)</p>
       <h2>Beauty salon manager     2016 - 2019</h2>
       </div>
-      <img className={styles.img} src={Photo} ></img>
+      <img className={styles.img} src={Photo} alt='mephoto'></img>
     </div>
      
     
