@@ -8,8 +8,8 @@ import {
   Route,
 } from "react-router-dom";
 import './index.module.scss';
-import HomeMyComponent from './components/home/homeMyComponent';
-import MyFirstComponent from './components/cv/myFirstComponent';
+import HomeMyComponent from './components/home/home';
+import MyFirstComponent from './components/cv/cv';
 import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
 import Projects from './components/projects/projects';

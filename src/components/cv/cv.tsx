@@ -1,13 +1,15 @@
 import React from 'react'
-import styles from './myFirstComponent.module.scss'
-type MyFirstComponentProps = {
+import styles from './cv.module.scss'
+import Photo from './forcv.png';
+type CVProps = {
 
 }
 
 
-const MyFirstComponent: React.FC<MyFirstComponentProps> = () => {
+const CV: React.FC<CVProps> = () => {
   return (
-    <div className={styles.text}>
+    <div>
+      <div className={styles.text}>
       <h1>...</h1>
       <h1>EDUCATION</h1>
       <p>Russian Theater Institute         2008 - 2012</p>
@@ -20,7 +22,8 @@ const MyFirstComponent: React.FC<MyFirstComponentProps> = () => {
       <h2>Photographer        2014 - 2015</h2>
       <p>Chamber college (Malta)</p>
       <h2>Beauty salon manager     2016 - 2019</h2>
-      <img src="../Assets/1.png" alt="Foto" width="460" height="345"></img>
+      </div>
+      <img className={styles.img} src={Photo} alt='photo'></img>
     </div>
      
     
@@ -29,4 +32,4 @@ const MyFirstComponent: React.FC<MyFirstComponentProps> = () => {
   )
 }
 
-export default MyFirstComponent
+export default CV

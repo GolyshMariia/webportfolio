@@ -1,0 +1,16 @@
+.text {
+    background-color: rgba(255, 255, 255, 0.404);
+    text-align: center;
+}
+
+.img {
+    width: 300px;
+    height: 442px;
+    position: absolute;
+    bottom: 165px;
+    right: 50px;
+    background-image: url(forcv.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}
